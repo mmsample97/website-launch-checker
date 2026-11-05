@@ -1,37 +1,58 @@
 ---
 name: website-launch-checker
-description: Check a small business website before go-live against a 15-point launch checklist. Use when a user asks to audit, check, review, or launch a website, or asks if a site is ready to publish. Give it a site URL, a folder of site files, or a live demo link and it returns a pass/fail report with evidence and fixes.
+description: Check any website before go-live against a 15-point launch checklist, with extra checks for your website type. Use when a user asks to audit, check, review, or launch a website, or asks if a site is ready to publish. Works for [WEBSITE TYPE: small business, online store, portfolio, blog, landing page, agency, restaurant, clinic, SaaS, or other], in [LANGUAGE], for [MAIN GOAL: get leads, sell online, take bookings, show work, or other]. Give it a site URL, a folder of site files, or a live demo link and it returns a pass/fail report with evidence and fixes.
 ---
 
 # Website Launch Checker
 
 ## Purpose
 
-Check a website before it goes live, so nothing embarrassing ships.
+Check any website before it goes live, so nothing embarrassing ships.
 The checker does not redesign the site. It checks readiness, reports
 what is missing, and says exactly what to fix.
 
-It is made for small business websites: one business, a few pages,
-a contact or lead form, and visitors who may read English as a
-second language.
+It works for any website type, not only small business sites.
+First, ask the user for these variables, in [square brackets],
+so the check fits their site:
+
+- [WEBSITE TYPE: small business, online store, portfolio, blog,
+  landing page, agency, restaurant, clinic, SaaS, or other]
+- [LANGUAGE: English, Arabic, Hindi, or other, and if the site
+  is in more than one language]
+- [MAIN GOAL: get leads, sell online, take bookings, show work,
+  share news, or other]
+- [MAIN PAGES: Home, Services, Shop, About, Contact, or other]
+- [HAS A FORM: yes or no, and what the form is for]
+- [SELLS ONLINE: yes or no]
+- [TAKES BOOKINGS: yes or no]
+
+Use the answers to choose which extra checks apply below.
+Do not check a shop checkout on a site with no shop, and do
+not check bookings on a site with no bookings. Mark checks
+that do not apply to this site type as "Not applicable yet".
 
 ## How to use it
 
-1. Ask the user for one of these:
+1. Ask the user for the variables above, one at a time, in plain
+   words. If they do not know a variable, use the most common
+   answer for their website type and say so.
+2. Ask the user for one of these:
    - A live URL
    - A folder of website files
    - A demo or staging link
-2. If the user gives only a URL, say clearly what cannot be checked
+3. If the user gives only a URL, say clearly what cannot be checked
    from outside. Do not guess those items. Mark them
    "Needs client confirmation" instead of Pass.
-3. Check every item in the checklist below, in order.
-4. For each item, record evidence: the page, file, line, tag, or
+4. Check every item in the 15-point checklist below, in order,
+   then check the extra checks that apply to this website type.
+5. For each item, record evidence: the page, file, line, tag, or
    screenshot where you saw it. No evidence means no Pass.
-5. Finish with the report format at the end of this file.
+6. Finish with the report format at the end of this file.
 
 ## The 15-point launch checklist
 
 Check all 15. Do not skip one because it looks small.
+These 15 apply to every website type.
 
 ### 1. Custom 404 page
 - A visitor who types a wrong address sees a branded 404 page,
@@ -44,7 +65,7 @@ Check all 15. Do not skip one because it looks small.
 - No two pages share the same title.
 - No title is empty, and no title is just the business name on
   every page.
-- Titles describe that page in plain words.
+- Titles describe that page in plain words, in the site language.
 
 ### 3. Meta descriptions
 - Every main page has a meta description.
@@ -71,7 +92,7 @@ Check all 15. Do not skip one because it looks small.
 
 ### 6. Internal links
 - Pages link to each other in a sensible way: Home, Services,
-  About, Contact, and any key service pages.
+  About, Contact, and any key pages for this website type.
 - Click or check every internal link. No link goes to a
   missing page, a 404, or a placeholder like `#`.
 - Fail on any broken internal link.
@@ -160,6 +181,58 @@ Check all 15. Do not skip one because it looks small.
 - A site with fake testimonials is a hard fail. It is
   not ready, even if everything else passes.
 
+## Extra checks by website type
+
+Check only the group that matches [WEBSITE TYPE].
+Report these separately, after the 15 points above.
+Mark a check "Not applicable yet" if that feature does
+not exist on this site.
+
+### A. Online store
+- Product pages show a clear price, in one format, and
+  what is included.
+- Add to cart, checkout, and payment work, with no
+  broken step. Do not place a real order unless the
+  user says you may.
+- Shipping, delivery, and returns are stated in plain
+  words, with cost and time.
+- Out of stock products say so, and do not allow checkout.
+
+### B. Portfolio, agency, or freelancer site
+- Work samples are real projects, with a name, what was
+  done, and a result or statistic where possible.
+- Contact details and a clear next step are easy to find
+  on every work page.
+- No sample work is presented as client work when it is
+  not a real client.
+
+### C. Blog, news, or content site
+- Articles have a clear date, author, and category.
+- Older articles still load, with no broken images or links.
+- Search and categories work, and a reader can find a
+  topic in two clicks.
+
+### D. Restaurant, clinic, salon, or booking site
+- Booking or appointment steps work, with a clear date,
+  time, price, and confirmation message.
+- Opening hours, location, and phone or WhatsApp are
+  correct and easy to find.
+- Prices, services, and any deposit or cancellation
+  rule are stated before booking.
+
+### E. Landing page or single page site
+- One clear main goal is visible at the top, with one
+  clear button.
+- The page loads fast on a phone, with no broken section.
+- The form or button works, and the visitor sees what
+  happens next after they tap it.
+
+### F. SaaS, app, or software site
+- Pricing is clear, with what is included in each plan,
+  and no hidden step at sign up.
+- Sign up, sign in, and password reset work.
+- Help, support, and contact are easy to find.
+
 ## Extra design checks
 
 These are not part of the 15 points above, but report them
@@ -180,6 +253,8 @@ separately as "Design notes". Do not mix them into the
 - Key information is easy for a weak English reader:
   short simple sentences, clear headings, and contact
   details that are easy to find.
+- Works on a phone: text is readable without zooming,
+  buttons are easy to tap, and no section is cut off.
 
 ## Hard rules
 
@@ -202,6 +277,7 @@ separately as "Design notes". Do not mix them into the
 Always finish with this format, in this order:
 
 ### Launch report: [site name or URL]
+### Website type: [WEBSITE TYPE] | Language: [LANGUAGE] | Main goal: [MAIN GOAL]
 
 **Verdict: Ready / Not ready / Not ready - blockers found**
 
@@ -230,6 +306,12 @@ but list them as gaps. Otherwise use "Not ready".
 | 13 | Privacy policy with cookie note | ... | ... |
 | 14 | FAQ | ... | ... |
 | 15 | Only real testimonials | ... | ... |
+
+**Extra checks for this website type: [WEBSITE TYPE]**
+
+| Check | Result | Evidence |
+|---|---|---|
+| [extra check name] | Pass / Fail / Not applicable yet | page or file |
 
 **Fixes, in priority order**
 
