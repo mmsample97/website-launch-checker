@@ -1,6 +1,6 @@
 ---
 name: website-launch-checker
-description: Check any website before go-live against a 15-point launch checklist, with extra checks for your website type. Use when a user asks to audit, check, review, or launch a website, or asks if a site is ready to publish. Works for [WEBSITE TYPE: small business, online store, portfolio, blog, landing page, agency, restaurant, clinic, SaaS, or other], in [LANGUAGE], for [MAIN GOAL: get leads, sell online, take bookings, show work, or other]. Give it a site URL, a folder of site files, or a live demo link and it returns a pass/fail report with evidence and fixes.
+description: "Check any website before go-live against a 15-point launch checklist, with extra checks for your website type. Use when a user asks to audit, check, review, or launch a website, or asks if a site is ready to publish. Works for [WEBSITE TYPE: small business, online store, portfolio, blog, landing page, agency, restaurant, clinic, SaaS, or other], in [LANGUAGE], for [MAIN GOAL: get leads, sell online, take bookings, show work, or other]. Give it a site URL, a folder of site files, or a live demo link and it returns a pass/fail report with evidence and fixes."
 ---
 
 # Website Launch Checker
