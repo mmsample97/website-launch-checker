@@ -4,9 +4,8 @@ An AI skill that checks any website before it goes live.
 
 Give your AI agent your site URL, demo link, or folder of site files, answer a few questions, and it goes through a 15-point list, plus extra checks for your website type, then gives you a pass/fail report with evidence and fixes. No guessing. If something cannot be verified, it says so.
 
-## What changed in v2
+## What is new in v2
 
-PromptBase declined v1 as too specific, for small business sites only.
 V2 works for any website type, with [square bracket] variables you fill in:
 [WEBSITE TYPE], [LANGUAGE], [MAIN GOAL], [MAIN PAGES], [HAS A FORM], [SELLS ONLINE], [TAKES BOOKINGS].
 
@@ -55,7 +54,7 @@ Made for any language, and for visitors who may read English as a second languag
 
 Two steps need the site owner, and the skill will list them separately: Google Search Console and Google Analytics need the owner's Google account, and testimonials need to be confirmed as real, with permission to show them.
 
-## Examples, for PromptBase review
+## Examples
 
 - Example 1, online store: [WEBSITE TYPE: online store], [LANGUAGE: English], [MAIN GOAL: sell online], [SELLS ONLINE: yes], [TAKES BOOKINGS: no]. Report shows cart and checkout checks, plus the 15 core checks.
 - Example 2, portfolio: [WEBSITE TYPE: portfolio], [LANGUAGE: English], [MAIN GOAL: show work], [SELLS ONLINE: no], [TAKES BOOKINGS: no]. Report shows real work sample checks, plus the 15 core checks.
