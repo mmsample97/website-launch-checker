@@ -1,3 +1,14 @@
+> Free version, here on GitHub: Check only. It tells you what is wrong, you fix it yourself.
+>
+> Paid version, ready fix kit: Same check, PLUS the fix ready to use. Templates, examples, and a client ready report. You do not start from zero.
+>
+> Get the paid version here:
+>
+> - Agensi, $15: [website-launch-checker on Agensi](https://www.agensi.io/skills/website-launch-checker)
+> - PromptBase, $14.99: [Websitelaunchchecker on PromptBase](https://promptbase.com/skill/websitelaunchchecker)
+
+---
+
 # Website Launch Checker
 
 An AI skill that checks any website before it goes live.
