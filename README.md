@@ -4,8 +4,8 @@
 >
 > Get the paid version here:
 >
-> - Agensi, $15: [website-launch-checker on Agensi](https://www.agensi.io/skills/website-launch-checker)
-> - PromptBase, $14.99: [Websitelaunchchecker on PromptBase](https://promptbase.com/skill/websitelaunchchecker)
+> - Agensi, $10: [website-launch-checker on Agensi](https://www.agensi.io/skills/website-launch-checker)
+> - PromptBase, $9.99: [Websitelaunchchecker on PromptBase](https://promptbase.com/skill/websitelaunchchecker)
 
 ---
 
